@@ -57,7 +57,7 @@ class Home extends Controller {
            $salesNeeded = new salesAnalysis();   
            $result = $salesNeeded->cal( $totalSales,$medInsvesment);
 
-            echo'Sales Needed to Break Even: ';           
+            echo'<h3>Target Sales:</h3> ';           
             echo $result ;  
            
            
